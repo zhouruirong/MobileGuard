@@ -113,6 +113,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivityForResult(
                         new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS),
                         MY_PERMISSIONS_REQUEST_PACKAGE_USAGE_STATS);
+                System.out.println("3");
             }
         }
     }
