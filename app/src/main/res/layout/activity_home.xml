@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andrioid="http://schemas.android.com/apk/res/android"
+    andrioid:orientation="vertical"
+    andrioid:layout_width="match_parent"
+    andrioid:layout_height="match_parent"
+    andrioid:layout_gravity="center"
+    andrioid:background="@drawable/bg_home">
+
+    <LinearLayout
+        andrioid:layout_width="match_parent"
+        andrioid:layout_height="wrap_content"
+        andrioid:orientation="horizontal"
+        andrioid:gravity="center">
+
+        <ImageView
+            andrioid:layout_width="100dp"
+            andrioid:layout_height="107dp"
+            andrioid:background="@drawable/superman"
+            andrioid:scaleType="fitXY"/>
+
+        <TextView
+            andrioid:layout_width="wrap_content"
+            andrioid:layout_height="wrap_content"
+            andrioid:id="@+id/tv_home"
+            andrioid:textSize="16sp"
+            andrioid:text="主人，我是你的手机小护卫"
+            andrioid:textColor="#90000000"
+            andrioid:textScaleX="1.1"
+            andrioid:typeface="normal"/>
+
+
+
+</LinearLayout>
+    <RelativeLayout
+        andrioid:layout_width="match_parent"
+        andrioid:layout_height="match_parent">
+        <GridView
+            andrioid:layout_width="match_parent"
+            andrioid:layout_height="wrap_content"
+            andrioid:id="@+id/gv_home"
+            andrioid:layout_centerInParent="true"
+            andrioid:gravity="center"
+            andrioid:horizontalSpacing="10dp"
+            andrioid:verticalSpacing="10dp"
+            andrioid:numColumns="3">
+
+
+        </GridView>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
